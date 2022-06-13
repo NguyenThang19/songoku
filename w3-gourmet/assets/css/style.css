@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Comon */
+.text-font{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.playfair-font{
+    font-family: 'Playfair Display', serif;;
+}
+.heading-font{
+   font-size: 36px;
+   letter-spacing: 5px;
+   margin: 10px 0;
+   line-height: 54px;
+   text-align: center;
+}
+
+.mg-15{
+    margin: 15px 0;
+}
+
+.mg-24{
+    margin: 24px 0;
+}
+
+.clear{
+    clear: both;
+}
+
+.f-15{
+    font-size: 15px;
+}
+
+.f-18{
+    font-size: 18px;
+}
+
+.f-w{
+    font-weight: 500;
+}
+
+.col-50{
+    display: inline-block;
+    width: 50%;
+}
+
+.fl-left{
+    float: left;
+}
+
+.fl-right{
+    float: right;
+}
+
+.text-decor{
+    text-decoration: none;
+    color: #000;
+    padding: 8px 16px;
+}
+.el-header{
+    padding: 8px 16px;
+    letter-spacing: 4px;
+    line-height: 46px;
+}
+
+.width-all{
+    max-width: 1100px;
+}
+
+.mg{
+   margin-top: 64px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.pd-bt{
+    padding-bottom: 64px;
+}
+
+.pd-full{
+    padding: 12px 24px;
+}
+
+/* common about */
+.p-about{
+    margin: 18px 0;
+    line-height: 27px;
+}
+
+/* Header-section */
+.header{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 46px;
+    background-color: #fff;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.text-decor:hover{
+    background-color: #ccc;
+}
+.right  {
+    text-align: right;
+}
+
+.left, .right{
+    margin-top: -8px;
+}
+
+/* Image Le-catering section */
+.img-Le-catering{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    margin-top: 46px;
+}
+
+.img-Le-catering img{
+    width: 100%;
+}
+
+.img-Le-catering .sub-img{
+    position: absolute;
+    bottom: 0;
+    opacity: 0.6;
+    padding: 12px 24px;
+}
+
+/* About-section */
+.about-section{
+    border-bottom: 1px solid #ccc;
+}
+
+.about-section img{
+    width: 100%;
+}
+
+
+.about-section .about-content .sub-head{
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* Menu section */
+.menu-section{
+    border-bottom: 1px solid #ccc;
+}
+
+.heading-food{
+    font-size: 20px !important;
+    letter-spacing: 5px;
+    margin-top:34px;
+    font-weight: 400;
+    padding: 10 0 0;
+}
+
+.sub-food{
+    margin: 15px 0;
+    color: #757575;
+}
+
+
+/* Contact section */
+.heading-contact{
+    padding: 10px 0 0;
+    text-align: left !important;
+}
+
+.address-contact{
+    font-weight: 700;
+    color: #607d8b;
+}
+
+/* section contact */
+
+.form-contact .input-block{
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.form-contact .ip{
+    width: 100%;
+    padding: 16px 8px;
+    border: none;
+}
+
+.form-contact #submit{
+    padding: 8px 16px;
+    background-color: #cccc;
+    border: none;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+.form-contact #submit:hover{
+    background-color:#cccccc;
+    cursor: pointer;
+}
+
+.footer{
+    padding: 32px 0;
+    background-color: #f1f1f1;
+    color: #000;
+    text-align: center;
+}
+
+.footer #link{
+    text-decoration: none;
+
+}
+
+.footer #link:hover{
+    color: #4CAF50;
+}
